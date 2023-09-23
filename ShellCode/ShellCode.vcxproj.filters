@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LZ4">
+      <UniqueIdentifier>{82d01399-b447-498b-8da1-043e170650af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="To64">
+      <UniqueIdentifier>{28794bd4-5328-4334-b858-a054c9d5b7e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASM">
+      <UniqueIdentifier>{dbb58b73-f9e9-41cc-9e96-a18f0f64bc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TOOL">
+      <UniqueIdentifier>{74feca74-f07a-49bf-99ca-cb8edf8589e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{ffff866c-d78c-4366-a9fc-a850be94d28e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShellCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4压缩使用示例.cpp">
+      <Filter>LZ4</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4.cpp">
+      <Filter>LZ4</Filter>
+    </ClCompile>
+    <ClCompile Include="To64.cpp">
+      <Filter>To64</Filter>
+    </ClCompile>
+    <ClCompile Include="MYLZ4.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MY_API.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lz4.h">
+      <Filter>LZ4</Filter>
+    </ClInclude>
+    <ClInclude Include="To64.h">
+      <Filter>To64</Filter>
+    </ClInclude>
+    <ClInclude Include="MYLZ4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TOOL.h">
+      <Filter>TOOL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="X64.asm">
+      <Filter>ASM</Filter>
+    </CustomBuild>
+    <CustomBuild Include="X86.asm">
+      <Filter>ASM</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

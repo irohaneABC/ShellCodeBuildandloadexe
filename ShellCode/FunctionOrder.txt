@@ -1,0 +1,4 @@
+?EntryPoint@@YAXXZ
+?GetFunAddrByHash@@YAHHPAUHINSTANCE__@@@Z
+?Hash_CmpString@@YA_NPADH@Z
+?MemZero@@YAXPAEH@Z
